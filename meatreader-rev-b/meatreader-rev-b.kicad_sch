@@ -2,9 +2,181 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d)
+	(uuid "3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "3V3"
+		(shape input)
+		(at 30.48 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53a02401-0a8e-4356-bc20-017ce141501f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.5087 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 30.48 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53a02401-0a8e-4356-bc20-017ce1415020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.5087 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 30.48 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53a02401-0a8e-4356-bc20-017ce1415021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.5087 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 30.48 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96db2ea6-960e-4dbc-a86a-784822a46c7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.4391 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 20.32)
+		(size 74.93 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "803e446f-06e8-466b-a4cb-815b872003a9")
+		(property "Sheetname" "Power"
+			(at 22.86 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 22.86 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "meatreader-rev-b"
+				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 20.32)
+		(size 86.36 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93f89198-6456-44a1-86f8-d79d08741adb")
+		(property "Sheetname" "ESP32 Core"
+			(at 106.68 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_core.kicad_sch"
+			(at 106.68 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "meatreader-rev-b"
+				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/kicad,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad,macos
 
+# Binary
+*.pdf
+
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
