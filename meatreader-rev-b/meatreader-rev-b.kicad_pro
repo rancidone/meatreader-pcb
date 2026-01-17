@@ -272,6 +272,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -279,7 +285,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Analog",
+        "pattern": "/Sensors ADC/PROBE?_?"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -420,6 +431,18 @@
     [
       "93f89198-6456-44a1-86f8-d79d08741adb",
       "ESP32 Core"
+    ],
+    [
+      "29eb60c2-0a12-4f90-b2e3-58469a6f68cf",
+      "Sensors ADC"
+    ],
+    [
+      "b0090d3f-6564-4767-99ad-313e625b5085",
+      "Calibration Sensor"
+    ],
+    [
+      "84f44dd6-15c4-4a40-89b0-3ec37b762c2c",
+      "UI"
     ]
   ],
   "text_variables": {}
