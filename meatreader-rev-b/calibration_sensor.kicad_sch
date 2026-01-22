@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "af01d1a7-57fa-4789-a9cb-01a2665bfc8e")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "MeatReader Calibration Probe")
+		(date "2026-01-17")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
@@ -834,7 +839,7 @@
 		(at 150.622 78.232 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 		)
 		(uuid "2017e532-e2fa-4ff4-8671-9c1e61d8b14d")
@@ -1046,7 +1051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f0e4b5e-ba40-48e0-8522-cffcad9ce06e")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 173.736 89.154 90)
 			(effects
 				(font
@@ -1062,7 +1067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 92.202 90)
 			(effects
 				(font
@@ -1098,7 +1103,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1131,7 +1136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -1199,7 +1204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:PJ-320A_TRS"
 			(at 149.86 93.98 0)
 			(effects
 				(font
@@ -1254,7 +1259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a6a286b-6634-45dd-ab7d-796b654907d0")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 184.15 86.3599 0)
 			(effects
 				(font
@@ -1272,7 +1277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 87.63 90)
 			(effects
 				(font
@@ -1308,7 +1313,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1324,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dbcced2-d2c5-4cd2-86ac-e056955588b7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR022"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -1374,7 +1379,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "#PWR030")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a14c25a9-735b-4307-a424-fa4d1a42cb04")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR023"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -1439,7 +1444,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1455,7 +1460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8db3b7-048b-4e2e-9eb8-f469e4ace0d9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR024"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -1505,7 +1510,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "#PWR029")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1522,7 +1527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e43392fb-90a6-4704-9376-a2f7b8a01067")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR025"
 			(at 181.61 83.82 0)
 			(effects
 				(font
@@ -1572,7 +1577,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8d916c-8de8-47ff-b0b1-75e0149b3b43")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 165.1 97.7899 90)
 			(effects
 				(font
@@ -1606,7 +1611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 162.56 99.06 0)
 			(effects
 				(font
@@ -1642,7 +1647,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/b0090d3f-6564-4767-99ad-313e625b5085"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)

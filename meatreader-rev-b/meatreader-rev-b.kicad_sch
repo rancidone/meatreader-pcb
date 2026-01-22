@@ -3,165 +3,66 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "MeatReader")
+		(date "2026-01-17")
+		(rev "B")
+	)
 	(lib_symbols)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 63.5 73.66 180)
-		(fields_autoplaced yes)
+	(text "MCU, UART, reset, I/O"
+		(exclude_from_sim no)
+		(at 93.726 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "2069ec6d-e6c6-46e8-bd00-fdf030a172d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2505 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "5517c785-694b-4d85-b034-ff8cea30c005")
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 63.5 78.74 180)
-		(fields_autoplaced yes)
+	(text "ADS1115 + probes"
+		(exclude_from_sim no)
+		(at 144.78 107.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "30d261d2-86a3-4f7a-b53b-82e471384adf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2505 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "7ab74d68-5fdc-4367-85ca-eef5c16a8ecc")
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 63.5 63.5 180)
-		(fields_autoplaced yes)
+	(text "OLED + encoder"
+		(exclude_from_sim no)
+		(at 233.68 108.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "53a02401-0a8e-4356-bc20-017ce141501f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5287 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "ccdcddcc-5c8e-434e-ae5d-23e9b55456a0")
 	)
-	(global_label "BAT"
-		(shape input)
-		(at 63.5 58.42 180)
-		(fields_autoplaced yes)
+	(text "Battery, charger, regulation"
+		(exclude_from_sim no)
+		(at 42.164 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "53a02401-0a8e-4356-bc20-017ce1415020")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5287 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "d9b9311c-85b9-4bc2-9f23-3888ae5bd9dc")
 	)
-	(global_label "GND"
-		(shape input)
-		(at 63.5 68.58 180)
-		(fields_autoplaced yes)
+	(text "DS18B20 calibration"
+		(exclude_from_sim no)
+		(at 189.992 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "53a02401-0a8e-4356-bc20-017ce1415021")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5287 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_ALERT"
-		(shape input)
-		(at 63.5 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d7634ae-3c45-4be4-8f1b-02e4f50e5ca9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1115 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 63.5 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96db2ea6-960e-4dbc-a86a-784822a46c7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.4591 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "eb82ca95-bb06-4db7-ae72-f35fc52c8c8f")
 	)
 	(sheet
-		(at 77.47 20.32)
-		(size 39.37 12.7)
+		(at 128.27 90.17)
+		(size 34.29 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -176,7 +77,7 @@
 		)
 		(uuid "29eb60c2-0a12-4f90-b2e3-58469a6f68cf")
 		(property "Sheetname" "Sensors ADC"
-			(at 77.47 19.6084 0)
+			(at 128.27 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +86,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors_adc.kicad_sch"
-			(at 77.47 33.6046 0)
+			(at 128.27 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,8 +103,8 @@
 		)
 	)
 	(sheet
-		(at 31.75 20.32)
-		(size 39.37 12.7)
+		(at 25.4 91.44)
+		(size 34.29 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -218,7 +119,7 @@
 		)
 		(uuid "803e446f-06e8-466b-a4cb-815b872003a9")
 		(property "Sheetname" "Power"
-			(at 31.75 19.6084 0)
+			(at 25.4 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +128,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 31.75 33.6046 0)
+			(at 25.4 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,8 +145,8 @@
 		)
 	)
 	(sheet
-		(at 170.18 20.32)
-		(size 40.64 12.7)
+		(at 215.9 90.17)
+		(size 34.29 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -260,7 +161,7 @@
 		)
 		(uuid "84f44dd6-15c4-4a40-89b0-3ec37b762c2c")
 		(property "Sheetname" "UI"
-			(at 170.18 19.6084 0)
+			(at 215.9 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "ui.kicad_sch"
-			(at 170.18 33.6046 0)
+			(at 215.9 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,8 +187,8 @@
 		)
 	)
 	(sheet
-		(at 77.47 49.53)
-		(size 46.99 25.4)
+		(at 69.85 85.09)
+		(size 48.26 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -302,7 +203,7 @@
 		)
 		(uuid "93f89198-6456-44a1-86f8-d79d08741adb")
 		(property "Sheetname" "ESP32 Core"
-			(at 77.47 48.8184 0)
+			(at 69.85 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32_core.kicad_sch"
-			(at 77.47 75.5146 0)
+			(at 69.85 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,8 +229,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 20.32)
-		(size 39.37 12.7)
+		(at 172.72 90.17)
+		(size 34.29 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -344,7 +245,7 @@
 		)
 		(uuid "b0090d3f-6564-4767-99ad-313e625b5085")
 		(property "Sheetname" "Calibration Sensor"
-			(at 123.19 19.6084 0)
+			(at 172.72 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "calibration_sensor.kicad_sch"
-			(at 123.19 33.6046 0)
+			(at 172.72 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
