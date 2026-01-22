@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ebeb9ff3-e13e-447a-8334-f23f56d48320")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "MeatReader ADC Probes")
+		(date "2026-01-17")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
@@ -1080,20 +1085,22 @@
 		(at 60.452 53.848 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 		)
 		(uuid "b95482fa-54b7-4384-bce8-d3848bf5375d")
 	)
-	(text "External BBQ probe:\n100k NTC thermistor\nconnected between Tip and Sleeve"
+	(text "ADS1115 Analog Digital Converter"
 		(exclude_from_sim no)
-		(at 60.452 121.158 0)
+		(at 170.18 70.612 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
 			)
 		)
-		(uuid "d8165a8a-3cb0-4549-90c5-4439eb4699f4")
+		(uuid "e42450fa-6567-491f-a250-9e499badc62f")
 	)
 	(junction
 		(at 86.36 72.39)
@@ -1120,19 +1127,19 @@
 		(uuid "1564c1b5-d7c5-452e-b382-0a678775d3c1")
 	)
 	(junction
-		(at 175.26 77.47)
+		(at 168.91 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e272b1b-e437-49e0-a231-69dc1b8f02d9")
 	)
 	(junction
-		(at 189.23 82.55)
+		(at 182.88 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c70e0b1-d968-46dc-90e1-4ac44927d44a")
 	)
 	(junction
-		(at 179.07 77.47)
+		(at 172.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77229879-38ce-4c02-b9d2-932ffcb57a7e")
@@ -1156,7 +1163,7 @@
 		(uuid "940676d0-0526-4380-8a1b-68f0cc5cbaf8")
 	)
 	(junction
-		(at 175.26 110.49)
+		(at 168.91 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a085a72b-54ef-4487-802c-760c7513c7ce")
@@ -1213,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 189.23 82.55)
+			(xy 172.72 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.41) (xy 185.42 110.49)
+			(xy 179.07 111.76) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 179.07 77.47)
+			(xy 168.91 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 110.49) (xy 185.42 110.49)
+			(xy 168.91 116.84) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 175.26 87.63)
+			(xy 168.91 83.82) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 189.23 77.47)
+			(xy 172.72 83.82) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 191.77 102.87)
+			(xy 179.07 109.22) (xy 185.42 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 191.77 100.33)
+			(xy 179.07 106.68) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 165.1 102.87)
+			(xy 151.13 109.22) (xy 158.75 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 165.1 105.41)
+			(xy 151.13 111.76) (xy 158.75 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 165.1 100.33)
+			(xy 151.13 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 165.1 97.79)
+			(xy 151.13 104.14) (xy 158.75 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 175.26 77.47)
+			(xy 168.91 81.28) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 95.25) (xy 191.77 95.25)
+			(xy 179.07 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 114.3) (xy 175.26 110.49)
+			(xy 168.91 120.65) (xy 168.91 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1789,7 @@
 		(uuid "f4a4d046-54c0-458c-a92e-9723d7796368")
 	)
 	(label "AIN1"
-		(at 157.48 100.33 0)
+		(at 151.13 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1792,7 +1799,7 @@
 		(uuid "3335986b-7a00-4a3b-9da9-b0020ef13bcb")
 	)
 	(label "AIN0"
-		(at 157.48 97.79 0)
+		(at 151.13 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1812,7 +1819,7 @@
 		(uuid "3e9b39b8-bffb-4250-828f-77fbc9af4eb8")
 	)
 	(label "AIN2"
-		(at 157.48 102.87 0)
+		(at 151.13 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1842,7 +1849,7 @@
 		(uuid "6fa0ef65-9f73-4a59-8429-d8fcde5f8ddd")
 	)
 	(label "AIN3"
-		(at 157.48 105.41 0)
+		(at 151.13 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1932,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 191.77 102.87 0)
+		(at 185.42 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1935,7 +1942,7 @@
 		)
 		(uuid "2c3388ac-d344-4492-9fee-a9a6923150cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0195 102.87 0)
+			(at 195.6695 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1954,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 191.77 100.33 0)
+		(at 185.42 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1957,7 +1964,7 @@
 		)
 		(uuid "2c3388ac-d344-4492-9fee-a9a6923150cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0195 100.33 0)
+			(at 195.6695 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1976,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 175.26 74.93 90)
+		(at 168.91 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,7 +1986,7 @@
 		)
 		(uuid "a5762c29-c478-41c7-866e-41eb2ea5d0da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 67.8891 90)
+			(at 168.91 74.2391 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2020,7 @@
 	)
 	(global_label "ADC_ALERT"
 		(shape input)
-		(at 191.77 95.25 0)
+		(at 185.42 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2023,7 +2030,7 @@
 		)
 		(uuid "ebd184c0-8978-4b51-8145-f69302888002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.1585 95.25 0)
+			(at 197.8085 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_2.5MM_PJ210B_TS"
 			(at 50.8 132.08 0)
 			(effects
 				(font
@@ -2078,6 +2085,24 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "9e36057968d7478ca8658f227985305d"
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "5.1 11.225"
 			(at 50.8 132.08 0)
 			(effects
 				(font
@@ -2111,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea4afe6-8d56-4a82-8379-2a3065140fdf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 86.36 90.17 0)
 			(effects
 				(font
@@ -2161,7 +2186,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2177,7 +2202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21029859-e7b6-44bf-a873-563af67d68d1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR019"
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -2227,7 +2252,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ed46c1-6bda-459c-92e8-5f149de88e14")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 99.06 132.0799 0)
 			(effects
 				(font
@@ -2297,7 +2322,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec434ae-5951-4099-8844-7157d631a4ff")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 71.12 139.446 90)
 			(effects
 				(font
@@ -2321,7 +2346,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "H3V3L06B"
+		(property "Value" "D_ESD_SIG"
 			(at 71.12 141.986 90)
 			(effects
 				(font
@@ -2330,7 +2355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -2366,7 +2391,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2382,7 +2407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41f8e457-0c9d-414e-81ad-323a33a230cd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR015"
 			(at 58.42 157.48 0)
 			(effects
 				(font
@@ -2432,7 +2457,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR023")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2440,7 +2465,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 189.23 80.01 0)
+		(at 182.88 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2448,8 +2473,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "480dfa96-2a87-4d7f-b512-967b29c86c0a")
-		(property "Reference" "C10"
-			(at 191.77 78.7462 0)
+		(property "Reference" "C12"
+			(at 185.42 85.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2483,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 191.77 81.2862 0)
+			(at 185.42 87.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +2491,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 80.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 80.01 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2510,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 189.23 80.01 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2527,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c780c65-ca1a-469f-bca9-971666bb0301")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 107.95 121.92 90)
 			(effects
 				(font
@@ -2533,7 +2558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 128.778 90)
 			(effects
 				(font
@@ -2569,7 +2594,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2584,7 +2609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe4679e-9cb8-471d-b49b-c515c4dd1ce5")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 107.95 54.61 90)
 			(effects
 				(font
@@ -2600,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 61.468 90)
 			(effects
 				(font
@@ -2636,7 +2661,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5703596f-c14a-4b69-a67e-0e9fe2fddba1")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 88.9 119.3799 0)
 			(effects
 				(font
@@ -2670,7 +2695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 120.65 90)
 			(effects
 				(font
@@ -2706,7 +2731,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2714,7 +2739,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 179.07 80.01 0)
+		(at 172.72 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2722,8 +2747,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "638a994d-cd6d-4109-8136-3888569e1dca")
-		(property "Reference" "C9"
-			(at 181.61 78.7462 0)
+		(property "Reference" "C11"
+			(at 175.26 85.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2757,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 181.61 81.2862 0)
+			(at 175.26 87.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 179.07 80.01 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 80.01 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2784,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 179.07 80.01 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2801,7 @@
 		(instances
 			(project ""
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ab4267f-0f1d-49e6-9f45-8e637758e217")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 107.95 67.31 90)
 			(effects
 				(font
@@ -2807,7 +2832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 74.168 90)
 			(effects
 				(font
@@ -2843,7 +2868,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2858,7 +2883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e04d8b0-455d-46ee-8f0d-f0bae90bb0eb")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 71.12 72.136 90)
 			(effects
 				(font
@@ -2867,7 +2892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "H3V3L06B"
+		(property "Value" "D_ESD_SIG"
 			(at 71.12 74.676 90)
 			(effects
 				(font
@@ -2876,7 +2901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 69.85 78.74 0)
 			(effects
 				(font
@@ -2912,7 +2937,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2945,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1115IDGS")
-		(at 175.26 100.33 0)
+		(at 168.91 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2928,7 +2953,7 @@
 		(dnp no)
 		(uuid "943685cb-4135-4549-9e37-0f96f824223a")
 		(property "Reference" "U4"
-			(at 176.276 86.106 0)
+			(at 169.926 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2962,7 @@
 			)
 		)
 		(property "Value" "ADS1115"
-			(at 176.276 88.646 0)
+			(at 169.926 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2971,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 175.26 113.03 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
-			(at 173.99 123.19 0)
+			(at 167.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +2989,7 @@
 			)
 		)
 		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 175.26 100.33 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 82.55 0)
+		(at 182.88 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3022,7 +3047,7 @@
 		(fields_autoplaced yes)
 		(uuid "94a912fd-b754-4d66-aa34-6e29d66b41d0")
 		(property "Reference" "#PWR021"
-			(at 189.23 88.9 0)
+			(at 182.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 87.63 0)
+			(at 182.88 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 82.55 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 82.55 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 82.55 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a555675-a506-412f-955e-3aa094119b4d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR014"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -3137,7 +3162,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR024")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a65ca79b-b041-4f36-8e33-ee3e49bbdf4b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -3203,7 +3228,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3211,7 +3236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 114.3 0)
+		(at 168.91 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3220,7 +3245,7 @@
 		(fields_autoplaced yes)
 		(uuid "a78b2baa-a31c-4cea-a2bd-4e1a1b617346")
 		(property "Reference" "#PWR020"
-			(at 175.26 120.65 0)
+			(at 168.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 119.38 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 114.3 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 114.3 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 114.3 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa800281-3da7-457d-af30-e5a18d632781")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 88.9 144.7799 0)
 			(effects
 				(font
@@ -3303,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 146.05 90)
 			(effects
 				(font
@@ -3339,7 +3364,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab34a2cc-8981-4fbd-b8ef-4c73a64214d2")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 59.182 72.136 90)
 			(effects
 				(font
@@ -3363,7 +3388,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "H3V3L06B"
+		(property "Value" "D_ESD_SIG"
 			(at 59.182 74.676 90)
 			(effects
 				(font
@@ -3372,7 +3397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -3417,7 +3442,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_2.5MM_PJ210B_TS"
 			(at 50.8 64.77 0)
 			(effects
 				(font
@@ -3468,6 +3493,24 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "9e36057968d7478ca8658f227985305d"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "5.1 11.225"
 			(at 50.8 64.77 0)
 			(effects
 				(font
@@ -3500,7 +3543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1be79f1-435b-4a39-8a0f-ad95aa017c15")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 107.95 134.62 90)
 			(effects
 				(font
@@ -3516,7 +3559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 141.478 90)
 			(effects
 				(font
@@ -3552,7 +3595,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3568,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5615054-ede2-4426-a0f7-5297a3345fe3")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 88.9 77.4699 0)
 			(effects
 				(font
@@ -3586,7 +3629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 78.74 90)
 			(effects
 				(font
@@ -3622,7 +3665,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3638,7 +3681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c670b52c-8c95-4802-b36f-55c071c92b86")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR017"
 			(at 69.85 157.48 0)
 			(effects
 				(font
@@ -3688,7 +3731,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "#PWR026")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d004b7c2-2cd5-42b4-a759-90f2bbde78c2")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 99.06 64.7699 0)
 			(effects
 				(font
@@ -3758,7 +3801,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1734b05-dea7-45f1-961f-a74c83b8890c")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 88.9 52.0699 0)
 			(effects
 				(font
@@ -3792,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 53.34 90)
 			(effects
 				(font
@@ -3828,7 +3871,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff0c3531-f399-474a-96ac-b2aa2cc540a4")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 59.182 139.446 90)
 			(effects
 				(font
@@ -3852,7 +3895,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "H3V3L06B"
+		(property "Value" "D_ESD_SIG"
 			(at 59.182 141.986 90)
 			(effects
 				(font
@@ -3861,7 +3904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -3906,7 +3949,7 @@
 		(instances
 			(project "meatreader-rev-b"
 				(path "/3c2ccb89-2e7f-4bd2-93e9-c6d084b9c33d/29eb60c2-0a12-4f90-b2e3-58469a6f68cf"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
